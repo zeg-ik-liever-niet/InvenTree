@@ -8,7 +8,7 @@ msgstr ""
 "Language: pt\n"
 "Project-Id-Version: inventree\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-09-21 05:10\n"
+"PO-Revision-Date: 2026-09-23 21:40\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -89,7 +89,7 @@ msgstr "Cancelar"
 
 #: lib/components/RowActions.tsx:146
 #: src/components/nav/NavigationDrawer.tsx:185
-#: src/forms/PurchaseOrderForms.tsx:940
+#: src/forms/PurchaseOrderForms.tsx:955
 #: src/forms/StockForms.tsx:950
 #: src/forms/StockForms.tsx:1517
 #: src/forms/StockForms.tsx:1565
@@ -156,7 +156,7 @@ msgstr "Não"
 #: src/forms/BuildForms.tsx:703
 #: src/forms/BuildForms.tsx:867
 #: src/forms/BuildForms.tsx:971
-#: src/forms/PurchaseOrderForms.tsx:936
+#: src/forms/PurchaseOrderForms.tsx:951
 #: src/forms/ReturnOrderForms.tsx:242
 #: src/forms/SalesOrderForms.tsx:435
 #: src/forms/StockForms.tsx:432
@@ -693,7 +693,7 @@ msgstr "Itens de seleção"
 #: src/states/IconState.tsx:76
 #: src/tables/bom/BomTable.tsx:606
 #: src/tables/settings/EmailTable.tsx:109
-#: src/tables/stock/StockItemTestResultTable.tsx:336
+#: src/tables/stock/StockItemTestResultTable.tsx:342
 msgid "Error"
 msgstr "Erro"
 
@@ -833,8 +833,8 @@ msgstr "Digitar informações do código de barras"
 #: src/components/barcodes/BarcodeScanDialog.tsx:56
 #: src/components/buttons/ScanButton.tsx:56
 #: src/components/nav/NavigationDrawer.tsx:122
-#: src/forms/PurchaseOrderForms.tsx:534
-#: src/forms/PurchaseOrderForms.tsx:674
+#: src/forms/PurchaseOrderForms.tsx:536
+#: src/forms/PurchaseOrderForms.tsx:676
 msgid "Scan Barcode"
 msgstr "Ler código de barras"
 
@@ -919,7 +919,7 @@ msgstr "Isto irá remover o link com o código de barras associado"
 
 #: src/components/barcodes/QRCode.tsx:205
 #: src/components/items/ActionDropdown.tsx:197
-#: src/forms/PurchaseOrderForms.tsx:664
+#: src/forms/PurchaseOrderForms.tsx:666
 msgid "Unlink Barcode"
 msgstr "Desvincular código de barras"
 
@@ -1701,7 +1701,7 @@ msgstr "Atualizado por"
 
 #: src/components/editors/NotesEditor.tsx:317
 #: src/components/editors/NotesEditor.tsx:720
-#: src/forms/PurchaseOrderForms.tsx:655
+#: src/forms/PurchaseOrderForms.tsx:657
 msgid "Add Note"
 msgstr "Adicionar observação"
 
@@ -2288,7 +2288,7 @@ msgstr "Extensões"
 #: src/tables/part/PartTestTemplateTable.tsx:121
 #: src/tables/settings/TemplateTable.tsx:296
 #: src/tables/settings/TemplateTable.tsx:408
-#: src/tables/stock/StockItemTestResultTable.tsx:418
+#: src/tables/stock/StockItemTestResultTable.tsx:424
 msgid "Enabled"
 msgstr "Ativado"
 
@@ -2785,7 +2785,7 @@ msgstr "Alterar"
 
 #: src/components/items/RoleTable.tsx:150
 #: src/forms/StockForms.tsx:1682
-#: src/tables/stock/StockItemTestResultTable.tsx:366
+#: src/tables/stock/StockItemTestResultTable.tsx:372
 msgid "Add"
 msgstr "Adicionar"
 
@@ -3701,7 +3701,7 @@ msgstr "Categoria"
 #: src/components/tables/ColumnRenderers.tsx:394
 #: src/components/tables/Filter.tsx:507
 #: src/forms/BuildForms.tsx:869
-#: src/forms/PurchaseOrderForms.tsx:707
+#: src/forms/PurchaseOrderForms.tsx:709
 #: src/forms/StockForms.tsx:674
 #: src/forms/StockForms.tsx:712
 #: src/forms/StockForms.tsx:1513
@@ -3736,7 +3736,7 @@ msgstr "Número de série"
 #: src/forms/BuildForms.tsx:284
 #: src/forms/BuildForms.tsx:707
 #: src/forms/BuildForms.tsx:871
-#: src/forms/PurchaseOrderForms.tsx:939
+#: src/forms/PurchaseOrderForms.tsx:954
 #: src/forms/ReturnOrderForms.tsx:243
 #: src/forms/SalesOrderForms.tsx:438
 #: src/forms/StockForms.tsx:724
@@ -4049,7 +4049,7 @@ msgid "Reference"
 msgstr "Referência"
 
 #: src/components/tables/ColumnRenderers.tsx:553
-#: src/forms/PurchaseOrderForms.tsx:851
+#: src/forms/PurchaseOrderForms.tsx:855
 #: src/pages/company/SupplierPartDetailsPanel.tsx:74
 msgid "Note"
 msgstr "Anotação"
@@ -4130,7 +4130,7 @@ msgid "Show items which have a batch code"
 msgstr "Exibir itens com um código de lote"
 
 #: src/components/tables/Filter.tsx:125
-#: src/forms/PurchaseOrderForms.tsx:777
+#: src/forms/PurchaseOrderForms.tsx:779
 #: src/forms/StockForms.tsx:731
 #: src/pages/build/BuildOrderDetailsPanel.tsx:186
 #: src/pages/stock/StockDetail.tsx:689
@@ -4359,7 +4359,7 @@ msgstr "Incluir resultados de variantes da peça"
 #: src/forms/BuildForms.tsx:386
 #: src/forms/BuildForms.tsx:469
 #: src/forms/BuildForms.tsx:544
-#: src/forms/PurchaseOrderForms.tsx:841
+#: src/forms/PurchaseOrderForms.tsx:845
 #: src/forms/ReturnOrderForms.tsx:196
 #: src/forms/ReturnOrderForms.tsx:244
 #: src/forms/StockForms.tsx:689
@@ -4499,7 +4499,7 @@ msgstr "Remover filtro"
 #: src/pages/Index/Settings/AdminCenter/IdentityManagementPanel.tsx:624
 #: src/pages/part/PartStockHistoryDetail.tsx:67
 #: src/tables/part/PartTestResultTable.tsx:210
-#: src/tables/stock/StockItemTestResultTable.tsx:205
+#: src/tables/stock/StockItemTestResultTable.tsx:211
 msgid "Value"
 msgstr "Valor"
 
@@ -6069,68 +6069,68 @@ msgstr "Receber notificações desta categoria"
 #~ msgid "Remove item from list"
 #~ msgstr "Remove item from list"
 
-#: src/forms/PurchaseOrderForms.tsx:481
+#: src/forms/PurchaseOrderForms.tsx:483
 msgid "Choose Location"
 msgstr "Escolher local"
 
-#: src/forms/PurchaseOrderForms.tsx:489
+#: src/forms/PurchaseOrderForms.tsx:491
 msgid "Item Destination selected"
 msgstr "Destino do item selecionado"
 
-#: src/forms/PurchaseOrderForms.tsx:499
+#: src/forms/PurchaseOrderForms.tsx:501
 msgid "Part category default location selected"
 msgstr "Localização padrão da categoria de peça selecionada"
 
-#: src/forms/PurchaseOrderForms.tsx:509
+#: src/forms/PurchaseOrderForms.tsx:511
 msgid "Received stock location selected"
 msgstr "Localização do estoque recebida selecionada"
 
-#: src/forms/PurchaseOrderForms.tsx:517
+#: src/forms/PurchaseOrderForms.tsx:519
 msgid "Default location selected"
 msgstr "Localização padrão selecionada"
 
-#: src/forms/PurchaseOrderForms.tsx:564
+#: src/forms/PurchaseOrderForms.tsx:566
 #: src/pages/part/PartDetailsPanel.tsx:268
 #: src/tables/bom/BomTable.tsx:290
 #: src/tables/bom/BomTable.tsx:482
 msgid "Virtual Part"
 msgstr "Peça virtual"
 
-#: src/forms/PurchaseOrderForms.tsx:565
-msgid "This part is virtual, no physical stock will be received."
-msgstr "Esta peça é virtual, nenhum estoque físico será recebido."
-
 #: src/forms/PurchaseOrderForms.tsx:566
 #~ msgid "Serial numbers"
 #~ msgstr "Serial numbers"
+
+#: src/forms/PurchaseOrderForms.tsx:567
+msgid "This part is virtual, no physical stock will be received."
+msgstr "Esta peça é virtual, nenhum estoque físico será recebido."
 
 #: src/forms/PurchaseOrderForms.tsx:582
 #~ msgid "Store at line item destination"
 #~ msgstr "Store at line item destination"
 
-#: src/forms/PurchaseOrderForms.tsx:599
+#: src/forms/PurchaseOrderForms.tsx:601
 #: src/forms/StockForms.tsx:616
 msgid "Set Location"
 msgstr "Definir localização"
 
-#: src/forms/PurchaseOrderForms.tsx:608
+#: src/forms/PurchaseOrderForms.tsx:610
 msgid "Assign Batch Code"
 msgstr "Definir código em lote"
 
-#: src/forms/PurchaseOrderForms.tsx:618
+#: src/forms/PurchaseOrderForms.tsx:620
 msgid "Assign Serial Numbers"
 msgstr "Atribuir números de série"
 
-#: src/forms/PurchaseOrderForms.tsx:630
+#: src/forms/PurchaseOrderForms.tsx:632
 msgid "Set Expiry Date"
 msgstr "Definir data de validade"
 
-#: src/forms/PurchaseOrderForms.tsx:639
+#: src/forms/PurchaseOrderForms.tsx:641
 #: src/forms/StockForms.tsx:1397
 msgid "Adjust Packaging"
 msgstr "Ajustar pacotes"
 
-#: src/forms/PurchaseOrderForms.tsx:648
+#: src/forms/PurchaseOrderForms.tsx:650
 #: src/forms/StockForms.tsx:624
 #: src/forms/StockForms.tsx:1388
 #: src/hooks/UseStockAdjustActions.tsx:152
@@ -6141,42 +6141,46 @@ msgstr "Alterar status"
 #~ msgid "Receive line items"
 #~ msgstr "Receive line items"
 
-#: src/forms/PurchaseOrderForms.tsx:722
+#: src/forms/PurchaseOrderForms.tsx:724
 msgid "Store at default location"
 msgstr "Armazenar no local padrão"
 
-#: src/forms/PurchaseOrderForms.tsx:737
+#: src/forms/PurchaseOrderForms.tsx:739
 msgid "Store at line item destination "
 msgstr "Armazenar no destino do item de linha "
 
-#: src/forms/PurchaseOrderForms.tsx:753
+#: src/forms/PurchaseOrderForms.tsx:755
 msgid "Store with already received stock"
 msgstr "Armazenar com estoque já recebido"
 
-#: src/forms/PurchaseOrderForms.tsx:778
+#: src/forms/PurchaseOrderForms.tsx:781
+msgid "Overrides the top-level batch code (\"{topLevelBatchCode}\") for this line item"
+msgstr ""
+
+#: src/forms/PurchaseOrderForms.tsx:782
 msgid "Enter batch code for received items"
 msgstr "Digite o código do lote para itens de estoque recebidos"
 
-#: src/forms/PurchaseOrderForms.tsx:794
+#: src/forms/PurchaseOrderForms.tsx:798
 #: src/forms/StockForms.tsx:266
 msgid "Serial Numbers"
 msgstr "Números de série"
 
-#: src/forms/PurchaseOrderForms.tsx:795
+#: src/forms/PurchaseOrderForms.tsx:799
 msgid "Enter serial numbers for received items"
 msgstr "Digite o número de série para itens de estoque recebidos"
 
-#: src/forms/PurchaseOrderForms.tsx:812
+#: src/forms/PurchaseOrderForms.tsx:816
 #: src/pages/stock/StockDetailsPanel.tsx:316
 #: src/tables/stock/StockItemTable.tsx:171
 msgid "Expiry Date"
 msgstr "Data de validade"
 
-#: src/forms/PurchaseOrderForms.tsx:813
+#: src/forms/PurchaseOrderForms.tsx:817
 msgid "Enter an expiry date for received items"
 msgstr "Insira uma data de expiração para os itens recebidos"
 
-#: src/forms/PurchaseOrderForms.tsx:827
+#: src/forms/PurchaseOrderForms.tsx:831
 #: src/forms/StockForms.tsx:1443
 #: src/pages/company/SupplierPartDetailsPanel.tsx:126
 #: src/pages/company/SupplierPartDetailsPanel.tsx:184
@@ -6185,13 +6189,13 @@ msgstr "Insira uma data de expiração para os itens recebidos"
 msgid "Packaging"
 msgstr "Embalagem"
 
-#: src/forms/PurchaseOrderForms.tsx:937
+#: src/forms/PurchaseOrderForms.tsx:952
 #: src/pages/company/SupplierPartDetailsPanel.tsx:92
 #: src/tables/purchasing/SupplierPriceBreakTable.tsx:49
 msgid "SKU"
 msgstr "Código (SKU)"
 
-#: src/forms/PurchaseOrderForms.tsx:938
+#: src/forms/PurchaseOrderForms.tsx:953
 #: src/tables/part/PartPurchaseOrdersTable.tsx:136
 #: src/tables/purchasing/PurchaseOrderLineItemTable.tsx:221
 #: src/tables/purchasing/PurchaseOrderLineItemTable.tsx:296
@@ -6199,11 +6203,11 @@ msgstr "Código (SKU)"
 msgid "Received"
 msgstr "Recebido"
 
-#: src/forms/PurchaseOrderForms.tsx:955
+#: src/forms/PurchaseOrderForms.tsx:985
 msgid "Receive Line Items"
 msgstr "Excluir itens de linha"
 
-#: src/forms/PurchaseOrderForms.tsx:961
+#: src/forms/PurchaseOrderForms.tsx:991
 msgid "Items received"
 msgstr "Itens recebidos"
 
@@ -6597,7 +6601,7 @@ msgstr "Método não permitido"
 
 #: src/functions/api.tsx:60
 msgid "Conflict"
-msgstr ""
+msgstr "Conflito"
 
 #: src/functions/api.tsx:63
 msgid "Internal server error"
@@ -9022,7 +9026,7 @@ msgstr "Pedido de produção filhos"
 #: src/pages/part/PartDetail.tsx:471
 #: src/pages/stock/StockDetail.tsx:281
 #: src/tables/build/BuildOutputTable.tsx:759
-#: src/tables/stock/StockItemTestResultTable.tsx:171
+#: src/tables/stock/StockItemTestResultTable.tsx:177
 msgid "Test Results"
 msgstr "Resultados do teste"
 
@@ -9657,7 +9661,7 @@ msgstr "Os parâmetros da peça não podem ser editados, pois a peça está bloq
 
 #: src/pages/part/PartDetail.tsx:599
 #: src/tables/part/PartTestTemplateTable.tsx:116
-#: src/tables/stock/StockItemTestResultTable.tsx:403
+#: src/tables/stock/StockItemTestResultTable.tsx:409
 msgid "Required"
 msgstr "Obrigatório"
 
@@ -12600,14 +12604,14 @@ msgstr "Filtrar por peças em que o usuário está inscrito"
 #: src/tables/part/PartTestResultTable.tsx:185
 #: src/tables/part/PartTestResultTable.tsx:339
 #: src/tables/part/PartTestResultTable.tsx:353
-#: src/tables/stock/StockItemTestResultTable.tsx:294
-#: src/tables/stock/StockItemTestResultTable.tsx:367
-#: src/tables/stock/StockItemTestResultTable.tsx:428
+#: src/tables/stock/StockItemTestResultTable.tsx:300
+#: src/tables/stock/StockItemTestResultTable.tsx:373
+#: src/tables/stock/StockItemTestResultTable.tsx:434
 msgid "Add Test Result"
 msgstr "Adicionar resultado de teste"
 
 #: src/tables/part/PartTestResultTable.tsx:114
-#: src/tables/stock/StockItemTestResultTable.tsx:296
+#: src/tables/stock/StockItemTestResultTable.tsx:302
 msgid "Test result added"
 msgstr "Resultado do teste adicionado"
 
@@ -12620,7 +12624,7 @@ msgid "Test results added"
 msgstr "Resultados de teste adicionados"
 
 #: src/tables/part/PartTestResultTable.tsx:184
-#: src/tables/stock/StockItemTestResultTable.tsx:195
+#: src/tables/stock/StockItemTestResultTable.tsx:201
 msgid "No Result"
 msgstr "Nenhum resultado"
 
@@ -13394,7 +13398,7 @@ msgstr "Informações de código de barras"
 
 #: src/tables/settings/BarcodeScanHistoryTable.tsx:89
 #: src/tables/settings/BarcodeScanHistoryTable.tsx:208
-#: src/tables/stock/StockItemTestResultTable.tsx:189
+#: src/tables/stock/StockItemTestResultTable.tsx:195
 msgid "Result"
 msgstr "Resultado"
 
@@ -13587,7 +13591,7 @@ msgid "Task ID"
 msgstr "ID da tarefa"
 
 #: src/tables/settings/FailedTasksTable.tsx:42
-#: src/tables/stock/StockItemTestResultTable.tsx:231
+#: src/tables/stock/StockItemTestResultTable.tsx:237
 msgid "Started"
 msgstr "Iniciado"
 
@@ -14242,81 +14246,81 @@ msgstr "Solicitar itens"
 #~ msgid "Delete stock"
 #~ msgstr "Delete stock"
 
-#: src/tables/stock/StockItemTestResultTable.tsx:141
+#: src/tables/stock/StockItemTestResultTable.tsx:147
 msgid "Test"
 msgstr "Teste"
 
-#: src/tables/stock/StockItemTestResultTable.tsx:178
+#: src/tables/stock/StockItemTestResultTable.tsx:184
 msgid "Test result for installed stock item"
 msgstr "Resultado de teste do item de estoque instalado"
 
-#: src/tables/stock/StockItemTestResultTable.tsx:209
+#: src/tables/stock/StockItemTestResultTable.tsx:215
 msgid "Attachment"
 msgstr "Anexo"
 
-#: src/tables/stock/StockItemTestResultTable.tsx:225
+#: src/tables/stock/StockItemTestResultTable.tsx:231
 msgid "Test station"
 msgstr "Estação de teste"
 
-#: src/tables/stock/StockItemTestResultTable.tsx:247
+#: src/tables/stock/StockItemTestResultTable.tsx:253
 msgid "Finished"
 msgstr "Concluído"
 
-#: src/tables/stock/StockItemTestResultTable.tsx:305
-#: src/tables/stock/StockItemTestResultTable.tsx:377
+#: src/tables/stock/StockItemTestResultTable.tsx:311
+#: src/tables/stock/StockItemTestResultTable.tsx:383
 msgid "Edit Test Result"
 msgstr "Editar resultado do teste"
 
-#: src/tables/stock/StockItemTestResultTable.tsx:307
+#: src/tables/stock/StockItemTestResultTable.tsx:313
 msgid "Test result updated"
 msgstr "Resultado do teste atualizado"
 
-#: src/tables/stock/StockItemTestResultTable.tsx:313
-#: src/tables/stock/StockItemTestResultTable.tsx:386
+#: src/tables/stock/StockItemTestResultTable.tsx:319
+#: src/tables/stock/StockItemTestResultTable.tsx:392
 msgid "Delete Test Result"
 msgstr "Excluir resultado do teste"
 
-#: src/tables/stock/StockItemTestResultTable.tsx:315
+#: src/tables/stock/StockItemTestResultTable.tsx:321
 msgid "Test result deleted"
 msgstr "Resultado de teste excluído"
 
-#: src/tables/stock/StockItemTestResultTable.tsx:329
+#: src/tables/stock/StockItemTestResultTable.tsx:335
 msgid "Test Passed"
 msgstr "Teste aprovado"
 
-#: src/tables/stock/StockItemTestResultTable.tsx:330
+#: src/tables/stock/StockItemTestResultTable.tsx:336
 msgid "Test result has been recorded"
 msgstr "O resultado do teste foi registrado"
 
-#: src/tables/stock/StockItemTestResultTable.tsx:337
+#: src/tables/stock/StockItemTestResultTable.tsx:343
 msgid "Failed to record test result"
 msgstr "Falha ao registrar o resultado do teste"
 
-#: src/tables/stock/StockItemTestResultTable.tsx:354
+#: src/tables/stock/StockItemTestResultTable.tsx:360
 msgid "Pass Test"
 msgstr "Aprovar teste"
 
-#: src/tables/stock/StockItemTestResultTable.tsx:404
+#: src/tables/stock/StockItemTestResultTable.tsx:410
 msgid "Show results for required tests"
 msgstr "Exibir resultados dos testes obrigatórios"
 
-#: src/tables/stock/StockItemTestResultTable.tsx:408
+#: src/tables/stock/StockItemTestResultTable.tsx:414
 msgid "Include Installed"
 msgstr "Incluir instalados"
 
-#: src/tables/stock/StockItemTestResultTable.tsx:409
+#: src/tables/stock/StockItemTestResultTable.tsx:415
 msgid "Show results for installed stock items"
 msgstr "Exibir resultados dos itens de estoque instalados"
 
-#: src/tables/stock/StockItemTestResultTable.tsx:413
+#: src/tables/stock/StockItemTestResultTable.tsx:419
 msgid "Passed"
 msgstr "Aprovado"
 
-#: src/tables/stock/StockItemTestResultTable.tsx:414
+#: src/tables/stock/StockItemTestResultTable.tsx:420
 msgid "Show only passed tests"
 msgstr "Exibir apenas testes aprovados"
 
-#: src/tables/stock/StockItemTestResultTable.tsx:419
+#: src/tables/stock/StockItemTestResultTable.tsx:425
 msgid "Show results for enabled tests"
 msgstr "Exibir resultados dos testes habilitados"
 
